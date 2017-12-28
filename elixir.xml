@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Github remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+    <remote name="eos"
+        fetch="https://github.com/ElixirOS"
+        revision="android-8.1"
+        sync-j="16" />
+  
+    <remote name="eos-gitlab"
+        revision="android-8.1"
+        fetch="https://gitlab.com/ElixirOS/" />
+   
+    <!-- general -->
+    <project path="build/kati" name="android_build_kati" remote="eos" />
+
+    <project path="build/make" name="android_build_make" remote="eos" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+
+    <project path="build/soong" name="android_build_soong" remote="eos" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <project path="bionic" name="android_bionic" remote="eos" />
+
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="eos" />
+
+    <!-- external -->
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="eos" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="eos" />
+    <project path="external/selinux" name="external_selinux" remote="eos" />
+    <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="staging/lineage-15.1" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="eos" />
+    <project path="external/exfat" name="android_external_exfat" remote="eos" />
+    <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="staging/lineage-15.1" />
+    <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="staging/lineage-15.1" />
+    <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="staging/lineage-15.1" />
+
+    <!-- system -->
+    <project path="system/bt" name="android_system_bt" remote="eos"  />
+    <project path="system/core" name="android_system_core" remote="eos"  />
+    <project path="system/extras" name="android_system_extras" remote="eos"  />
+    <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="eos"  />
+    <project path="system/media" name="android_system_media" remote="eos"  />
+    <project path="system/nfc" name="android_system_nfc" remote="eos"  />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="eos"  />
+    <project path="system/vold" name="android_system_vold" remote="eos"  />
+    <project path="system/vold" name="android_system_libhidl" remote="eos"  />
+
+    <!-- hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="eos" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="eos" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="eos" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="eos" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="eos" />
+  <project path="hardware/qcom/bootctrl" name=" android_hardware_qcom_bootctrl" remote="eos" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="eos" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="eos" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="eos" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="eos" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="eos" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="eos" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="eos" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="eos" />
+
+    <!-- frameworks -->
+    <project path="frameworks/av" name="android_frameworks_av" remote="eos" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="eos" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="eos" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="eos" />
+    <project path="frameworks/support" name="android_frameworks_support" remote="eos" />
+ 
+            <!-- packages -->
+	    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="eos"  />
+	    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="eos"  />
+	    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="eos"  />
+	    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="eos"  />
+	    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="eos"  />
+	    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="eos"  />
+	    <project path="packages/apps/MagicWorld" name="android_packages_apps_MagicWorld" remote="eos"  />
+	    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="eos"  />
+	    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="eos"  />
+	    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="eos"  />
+	    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="eos"  />
+	    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="eos"  />
+	    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="eos"  />
+
+    <!-- services -->
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="eos" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="eos" />
+
+    <!-- vendor -->
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="eos" />
+    <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.0" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="eos">
+    <copyfile src="Android.bp" dest="vendor/qcom/opensource/Android.bp" />
+    </project>
+    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="eos" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="eos" />
+    <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="eos" />
+
+    <!-- qcom -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="eos" />
+</manifest>
