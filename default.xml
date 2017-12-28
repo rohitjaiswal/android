@@ -625,5 +625,5 @@
   <include name="remove.xml" />
 
   <!-- Elixir repos -->
-  <include name="elixir.xml" />
+  <include name="Elixir.xml" />
 </manifest>
