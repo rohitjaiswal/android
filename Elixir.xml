@@ -42,7 +42,7 @@
     <project path="external/selinux" name="external_selinux" remote="eos" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="staging/lineage-15.1" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="eos" />
-    <project path="external/exfat" name="android_external_exfat" remote="eos" />
+    <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="staging/lineage-15.1" />
     <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="staging/lineage-15.1" />
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="staging/lineage-15.1" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="staging/lineage-15.1" />
