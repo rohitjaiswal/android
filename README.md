@@ -1,4 +1,4 @@
-<img src="https://github.com/ElixirOS/android/raw/android-8.1/logo.png"> 
+<img src="https://github.com/ElixirOS/android/raw/android-8.1/745082_a37d_4.jpg"> 
 
 Magic world begins here !!
 
