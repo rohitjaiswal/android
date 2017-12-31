@@ -57,48 +57,48 @@
     <project path="system/vold" name="android_system_vold" remote="eos"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="eos"  />
 
-  <!-- hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="eos" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="eos" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="eos" />
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="eos" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8996" /> 
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="eos" />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="staging/lineage-15.1-caf" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="eos" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="eos" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="eos" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="eos" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8996" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="eos" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="eos" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="eos" />
-  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8996" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="eos" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="staging/lineage-15.1-caf" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="eos" />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="staging/lineage-15.1-caf" />
+    <!-- hardware -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="eos" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="eos" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="eos" />
+    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="eos" />
+    <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8084" />
+    <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8916" />
+    <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8960" />
+    <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8994" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8952" />
+    <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8974" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.0-caf-8996" /> 
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="eos" />
+    <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="staging/lineage-15.1-caf" />
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="eos" />
+    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="eos" />
+    <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="eos" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="eos" />
+    <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8084" />
+    <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8916" />
+    <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8960" />
+    <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8994" />
+    <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8952" />
+    <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8974" />
+    <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8996" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="eos" />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="eos" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="eos" />
+    <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8084" />
+    <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8916" />
+    <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8960" />
+    <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8994" />
+    <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8998" />
+    <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8952" />
+    <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8974" />
+    <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.0-caf-8996" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="eos" />
+    <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="staging/lineage-15.1-caf" />
+    <project path="hardware/ril" name="android_hardware_ril" remote="eos" />
+    <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="staging/lineage-15.1-caf" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="eos" />
@@ -107,20 +107,21 @@
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="eos" />
     <project path="frameworks/support" name="android_frameworks_support" remote="eos" />
  
-            <!-- packages -->
-	    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="eos"  />
-	    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="eos"  />
-	    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="eos"  />
-	    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="eos"  />
-	    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="eos"  />
-	    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="eos"  />
-	    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="eos"  />
-	    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="eos"  />
-	    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="eos"  />
-	    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="eos"  />
-	    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="eos"  />
-	    <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="github" revision="staging/lineage-15.1"  />
-            <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="staging/lineage-15.1"  />
+    <!-- packages -->
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="eos" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="eos"  />
+    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="eos"  />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="eos"  />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="eos"  />
+    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="eos"  />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="eos"  />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="eos"  />
+    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="eos"  />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="eos"  />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="eos"  />
+    <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="github" revision="staging/lineage-15.1"  />
+    <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="staging/lineage-15.1"  />
+    
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="eos" />
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="eos" />
