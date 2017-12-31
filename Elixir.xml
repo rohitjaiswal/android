@@ -7,8 +7,7 @@
 
     <remote name="eos"
         fetch="https://github.com/ElixirOS"
-        revision="android-8.1"
-        sync-j="16" />
+        revision="android-8.1" />
   
     <remote name="eos-gitlab"
         revision="android-8.1"
