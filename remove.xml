@@ -45,7 +45,7 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
-
+  <remove-project name="platform/hardware/qcom/power" />
   <!-- General repos -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
