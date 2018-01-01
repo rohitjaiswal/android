@@ -138,4 +138,5 @@
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="staging/lineage-15.1" />
+    <project path="device/elixir/sepolicy" name="android_device_elixir_sepolicy" remote="eos" />
 </manifest>
