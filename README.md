@@ -1,5 +1,5 @@
 # ELixir OS #
-## Magic World Begins Here!! ##
+## Magical World Begins Here!! ##
 
 ## 1. Setting up your Linux Distribution for Android Compiling: ##
    -  ## Installing Repo ##
@@ -58,8 +58,8 @@
   ```bash
    $ . build/envsetup.sh
    $ lunch device-userdebug #only if ElixirOS is available for your device, if not clone manually and do,
-   $ lunch elixir_device-userdebug or
-   $ make bacon -j$numberofsupportedthreads
+   $ lunch elixir_device-userdebug
+   $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
    ```
    
    
