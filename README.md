@@ -47,7 +47,7 @@
    #maybe in some servers you need bc so do
    sudo aptitude install bc
    
-   For a ARCH user:
+   For an ARCH user:
    lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl n
    curses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv 
    bc rsync ncurses5-compat-libsAUR lib32-zlib lib32-ncurses lib32-readline 
@@ -56,9 +56,9 @@
    
 ## Building ##
   ```bash
-   $ . build/envsetup.sh
-   $ lunch device-userdebug #only if ElixirOS is available for your device, if not clone manually and do,
-   $ lunch elixir_device-userdebug
+   $ . build/envsetup.sh                                     
+   $ lunch elixir_device-userdebug  #only if ElixirOS is Officially supported for your device, if not clone manually and do,
+   $ lunch #select your device from lunch menu
    $ make bacon -j$numberofsupportedthreads or brunch elixir_device-userdebug
    ```
    
