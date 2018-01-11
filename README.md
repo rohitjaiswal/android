@@ -1,7 +1,7 @@
 # ELixir OS #
 ## Magical World Begins Here!! ##
 
-## 1. Setting up your Linux Distribution for Android Compiling: ##
+## Setting up your Linux Distribution for Android Compiling: ##
    -  ## Installing Repo ##
    
    ```bash
