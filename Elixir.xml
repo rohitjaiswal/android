@@ -136,7 +136,6 @@
     <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="staging/lineage-15.1" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="eos" />
     <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-15.0" />
-    <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="eos" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="eos" />
 
     <!-- qcom -->
