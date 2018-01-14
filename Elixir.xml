@@ -123,7 +123,7 @@
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="staging/lineage-15.1"  />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="eos"  />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="github" revision="staging/lineage-15.1"  />
-    project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="staging/lineage-15.1"  />
+    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="staging/lineage-15.1"  />
 
     
     <!-- services -->
