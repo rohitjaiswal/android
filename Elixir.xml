@@ -133,7 +133,7 @@
 
     <!-- vendor -->
     <project path="vendor/elixir" name="android_vendor_elixir" remote="eos" />
-    <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.0" />
+    <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.1" />
     <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="staging/lineage-15.1" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="eos" />
     <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-15.0" />
