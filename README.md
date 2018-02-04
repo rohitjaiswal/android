@@ -1,4 +1,4 @@
-# ELixir OS #
+# ELixir OS # ![alt text](https://github.com/ElixirOS/android/blob/android-8.1/ElixirOS.jpg)
 ## Magical World Begins Here!! ##
 
 ## Setting up your Linux Distribution for Android Compiling: ##
